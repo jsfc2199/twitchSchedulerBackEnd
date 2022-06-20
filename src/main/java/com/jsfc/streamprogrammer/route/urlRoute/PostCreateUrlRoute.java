@@ -1,7 +1,7 @@
-package com.jsfc.streamprogrammer.route;
+package com.jsfc.streamprogrammer.route.urlRoute;
 
 import com.jsfc.streamprogrammer.dto.UrlDto;
-import com.jsfc.streamprogrammer.usecase.PostCreateUrlUseCase;
+import com.jsfc.streamprogrammer.usecase.urlUseCase.PostCreateUrlUseCase;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpStatus;

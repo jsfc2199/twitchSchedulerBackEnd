@@ -1,4 +1,4 @@
-package com.jsfc.streamprogrammer.usecase;
+package com.jsfc.streamprogrammer.usecase.urlUseCase;
 
 import com.jsfc.streamprogrammer.repository.UrlRepository;
 import org.springframework.stereotype.Service;

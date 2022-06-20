@@ -6,7 +6,6 @@ import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import java.net.URL;
 
 @Data
 @Document(collection = "videogame")
@@ -17,5 +16,5 @@ public class VideoGame {
     private String id;
     private String name;
     private String genre;
-    private URL url;
+    private Url url;
 }
